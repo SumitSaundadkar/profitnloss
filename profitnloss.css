@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+body{
+  background-image: url(/neOgcamp/konstantin-evdokimov-UUYkTnQkn9c-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cornflowerblue;
+  border-color: crimson 1px 2px 4px 5px;
+}
+
+.input-label {
+    display: block;
+    font-size: larger;
+    margin: 2rem 0px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+  }
+  .input {
+    font-size: large;
+    display: block;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 1.5px solid teal;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 325px;
+    text-align: center;
+  }
+  .btn-check {
+    background: teal;
+    border: none;
+    color: cyan;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+  }
+  
+  #output-label{
+    font-size: x-large;
+    font-weight: 600;
+   text-align: center;
+    color: cornflowerblue;
+    padding-top: 10px;
+  }
