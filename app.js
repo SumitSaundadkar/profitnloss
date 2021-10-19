@@ -20,7 +20,7 @@ function calculateProfitnLoss(initial,stocks,current){
         
     }
     else if(initial<current){
-        var profit=(current-initial)*5;
+        var profit=(current-initial)*stocks;
         var profitpercentage=(profit/initial)*100;
         showMessage(`yeee, the profit is${profit} and the percentage of loss is${profitpercentage}`);
 
